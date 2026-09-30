@@ -87,7 +87,7 @@ export function Application() {
 
           <div className="lg:self-center">
             <p className="mb-10 text-right font-display text-[clamp(2.75rem,5vw,4.75rem)] leading-[0.88] tracking-[-0.02em] text-off-white">
-              <span className="block [text-align-last:justify]">1ST ROUND</span>
+              <span className="block [text-align-last:justify]">FIRST ROUND</span>
               <span className="block">NOW OPEN!!</span>
             </p>
             <Button
