@@ -33,8 +33,8 @@ export default function Home() {
         <Eligibility />
         <Application />
         <Crowdfunding />
-        <Speakers />
         <SupporterMessage />
+        <Speakers />
         <Partners />
         <Organizer />
         <FAQ />
