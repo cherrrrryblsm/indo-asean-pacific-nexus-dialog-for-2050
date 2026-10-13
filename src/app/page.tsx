@@ -13,6 +13,7 @@ import { Partners } from "@/components/sections/Partners";
 import { ProgramThemes } from "@/components/sections/ProgramThemes";
 import { Schedule } from "@/components/sections/Schedule";
 import { Speakers } from "@/components/sections/Speakers";
+import { SupporterMessage } from "@/components/sections/SupporterMessage";
 import { Venue } from "@/components/sections/Venue";
 import { WhyNexus } from "@/components/sections/WhyNexus";
 
@@ -33,6 +34,7 @@ export default function Home() {
         <Application />
         <Crowdfunding />
         <Speakers />
+        <SupporterMessage />
         <Partners />
         <Organizer />
         <FAQ />

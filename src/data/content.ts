@@ -34,6 +34,7 @@ export const sectionLabels = {
   eligibility: { en: "Eligibility", ja: "参加資格" },
   application: { en: "Application", ja: "応募" },
   speakers: { en: "Speakers", ja: "登壇者" },
+  supporterMessage: { en: "Supporter Message", ja: "応援メッセージ" },
   partners: { en: "Partners & Sponsors", ja: "協力・後援" },
   organizer: { en: "Organizer", ja: "主催" },
   faq: { en: "FAQ", ja: "FAQ" },
@@ -291,6 +292,28 @@ export const speakersContent = {
   note: {
     en: "Expert speakers and facilitators will be announced as the program is finalized.",
     ja: "専門家・ファシリテーターは、プログラム確定に伴い順次発表します。",
+  },
+};
+
+export const supporterMessageContent = {
+  headline: { en: "Supporter Message", ja: "応援メッセージ" },
+  name: { en: "Mitoji Yabunaka", ja: "薮中 三十二 氏" },
+  title: {
+    en: "Head of Global Terakoya Yabunaka Juku / Former Vice-Minister for Foreign Affairs of Japan",
+    ja: "グローバル寺子屋「薮中塾」塾長／元外務事務次官",
+  },
+  message: {
+    en: [
+      "This is an ambitious initiative that brings together young people who will become future leaders of the Asia-Pacific region to think about the future of the world and explore how we can achieve regional stability by 2050.",
+      "Mr. Kuribayashi, who conceived this initiative, was an active member of Global Terakoya Yabunaka Juku, which I lead. He is also a true global-minded individual who has even played professional baseball in Poland. When I first heard about this project, I thought, This is exactly the kind of initiative I would expect from him.",
+      "The Government of Japan has been promoting the vision of a Free and Open Indo-Pacific (FOIP), with the Quad  the United States, Japan, Australia, and India  often regarded as one of its key frameworks. For Japan, however, the ten ASEAN member states are of critical importance. I therefore believe it is extremely significant that this initiative places ASEAN at the heart of its vision.",
+      "The world is now entering a period of profound change, with divisions and tensions becoming increasingly intense. It is precisely in times like these that young people who will shape the future must come together, exchange ideas openly, and build relationships of mutual trust across borders.",
+      "I believe this initiative represents an important first step toward that future, and I wholeheartedly support it.",
+    ],
+    ja: [
+      "2050 年のアジア太平洋地域の安定を実現するため、この地域のリーダーとなる若者と共に世界の未来を考える取り組み、この大きな取り組みを発案した栗林君は私が主宰するグローバル寺子屋で活躍してくれた若者で、ポーランドのプロ野球でも活躍したグローバリストです。この取り組みを聞いた時、さすがだと思いました。日本政府は自由で開かれたインド太平洋(FOIP)を推進していますが、その推進母体として QUAD（アメリカ、日本、オーストラリア、インド）の４カ国が挙げられています。しかし、日本にとって決定的に大事なのは ASEAN の１０カ国です。この取り組みが ASEAN も中核に据えていることは非常に大事です。",
+      "今、世界は大きな激動期を迎えており、対立が激化しています。こうした時代だからこそ、未来を担う世界の若者が一堂に集い、議論し、信頼関係を築いていくことが何より大事です。その大事な一歩となるこの取り組み、私も大いに応援したいと思っています。",
+    ],
   },
 };
 
