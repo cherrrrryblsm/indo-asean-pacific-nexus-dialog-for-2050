@@ -57,7 +57,24 @@ export function Partners() {
             {t(partnersContent.sponsors)}
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {[1, 2, 3].map((slot) => (
+            <a
+              href="https://www.gd-commons.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GD Commons"
+              className="flex min-h-[100px] items-center justify-center border border-dashed border-navy/15 bg-white/20"
+            >
+              <div className="relative h-20 w-full max-w-[220px]">
+                <Image
+                  src="/GD_logo.png"
+                  alt="GD Commons"
+                  fill
+                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-contain"
+                />
+              </div>
+            </a>
+            {[2, 3].map((slot) => (
               <div
                 key={slot}
                 className="flex min-h-[100px] items-center justify-center border border-dashed border-navy/15 bg-white/20"
