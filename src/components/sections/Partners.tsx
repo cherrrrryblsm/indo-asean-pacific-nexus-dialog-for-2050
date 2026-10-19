@@ -62,15 +62,15 @@ export function Partners() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GD Commons"
-              className="flex min-h-[100px] items-center justify-center border border-dashed border-navy/15 bg-white/20"
+              className="flex min-h-[100px] items-center justify-center overflow-hidden bg-white/20"
             >
-              <div className="relative h-20 w-full max-w-[220px]">
+              <div className="relative h-[100px] w-full">
                 <Image
                   src="/GD_logo.png"
                   alt="GD Commons"
                   fill
                   sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-contain"
+                  className="scale-[1.3] object-contain"
                 />
               </div>
             </a>
